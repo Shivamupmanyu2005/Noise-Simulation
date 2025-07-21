@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Bitcount:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double&family=Bitcount:wght@100..900&family=Pirata+One&display=swap');
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to right, oklch(36.007% 0.04486 270.39), black);
+   
+
+}
+
+
+.skull{
+  background-image: url(https://i.pinimg.com/736x/10/b3/3a/10b33adce9674630588af04968cfed6a.jpg);
+  background-position: center;
+  background-size: contain;
+}
+
+.noise-simulation-title {
+font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+/* Range Slider Styles */
+.range-slider {
+  
+  width: 100%;
+  height: 8px;
+  border-radius: 5px;
+  background: rgba(79, 70, 229, 0.3); /* Base track color */
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.range-slider:hover {
+  opacity: 1;
+}
+
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4f46e5; /* Thumb color */
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(79, 70, 229, 0.8), 0 0 10px rgba(79, 70, 229, 0.6); /* Glowing effect */
+}
+
+.range-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4f46e5;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(79, 70, 229, 0.8), 0 0 10px rgba(79, 70, 229, 0.6);
+}
+
+.rang1{
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
