@@ -154,7 +154,7 @@ textShadow: "0 0 5px rgba(255,255,255,0.5), 0 0 10px rgba(255,255,255,0.3), 0 0 
     </motion.span>
   ))}
 </motion.h1></motion.div>
-    <motion.canvas ref={canvasRef} width="800" height="300"  className='rounded-3xl mt-12  ml-88   skull absolute' 
+    <motion.canvas ref={canvasRef} width="800" height="300"  className='rounded-3xl mt-12  ml-88    absolute' 
     animate={{
       boxShadow: "0 0 15px rgba(79, 70, 229, 0.7), 0 0 30px rgba(79, 70, 229, 0.5), 0 0 45px rgba(79, 70, 229,0.3)",
     }}

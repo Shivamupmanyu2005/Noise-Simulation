@@ -14,11 +14,6 @@ body {
 }
 
 
-.skull{
-  background-image: url(https://i.pinimg.com/736x/10/b3/3a/10b33adce9674630588af04968cfed6a.jpg);
-  background-position: center;
-  background-size: contain;
-}
 
 .noise-simulation-title {
 font-family: "Bitcount Grid Double", system-ui;
